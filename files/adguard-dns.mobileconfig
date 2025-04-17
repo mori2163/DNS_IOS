@@ -7,17 +7,26 @@
 		<key>PayloadOrganization</key>
 		<string>DNS</string>
 		<key>PayloadIdentifier</key>
-        <string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
-        <key>PayloadUUID</key>
-        <string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
-        <key>PayloadType</key>
-        <string>Configuration</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>PayloadDescription</key>
-        <string>DNS</string>
+		<string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
+		<key>PayloadUUID</key>
+		<string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadDescription</key>
+		<string>DNS</string>
+		<key>PayloadContent</key>
 		<array>
 			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadIdentifier</key>
+				<string>b31dc937-6a72-6eaf-11a2-06d804eb88ee.dns</string>
+				<key>PayloadUUID</key>
+				<string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
 				<key>DNSSettings</key>
 				<dict>
 					<key>DNSProtocol</key>

@@ -27,6 +27,8 @@
 				<string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
 				<key>PayloadVersion</key>
 				<integer>1</integer>
+				<key>PayloadDisplayName</key>
+				<string>DNS設定</string>
 				<key>DNSSettings</key>
 				<dict>
 					<key>DNSProtocol</key>
@@ -40,6 +42,8 @@
 					</array>
 					<key>ServerURL</key>
 					<string>https://unfiltered.adguard-dns.com/dns-query</string>
+                    <key>Name</key>
+                    <string>AdGuard DNS</string>
 				</dict>
 			</dict>
 		</array>

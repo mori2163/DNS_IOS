@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS構成ファイル配布サイト</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+            font-weight: 500;
+        }
+        .file-container {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-info {
+            flex-grow: 1;
+        }
+        .file-name {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        .file-desc {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .download-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+        .download-btn:hover {
+            background-color: #2980b9;
+        }
+        .instructions {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .file-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .download-btn {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DNS構成ファイル配布サイト</h1>
+        <p>iOSおよびmacOS向けのDNS構成ファイルをダウンロードできます</p>
+    </header>
+
+    <main>
+        <section class="instructions">
+            <h2>はじめに</h2>
+            <p>このサイトでは、DNSサーバーを設定するプロファイルファイル（.mobileconfig）を提供しています。<br>※プロファイルの仕様を理解している方のみインストールしてください。</p>
+        </section>
+
+        <section>
+            <h2>利用可能なDNS構成ファイル</h2>
+            
+            <div class="file-container">
+                <div class="file-item">
+                    <div class="file-info">
+                        <div class="file-name">Google DNS構成</div>
+                        <div class="file-desc">Google Public DNSを使用した構成ファイル（8.8.8.8, 8.8.4.4）</div>
+                    </div>
+                    <a href="files/google-dns.mobileconfig" class="download-btn" download>ダウンロード</a>
+                </div>
+                
+                <div class="file-item">
+                    <div class="file-info">
+                        <div class="file-name">Cloudflare DNS構成</div>
+                        <div class="file-desc">Cloudflare DNSを使用した構成ファイル（1.1.1.1, 1.0.0.1）</div>
+                    </div>
+                    <a href="files/cloudflare-dns.mobileconfig" class="download-btn" download>ダウンロード</a>
+                </div>
+                
+                <div class="file-item">
+                    <div class="file-info">
+                        <div class="file-name">AdGuard DNS構成</div>
+                        <div class="file-desc">広告ブロック機能付きAdGuard DNSを使用した構成ファイル</div>
+                    </div>
+                    <a href="files/adguard-dns.mobileconfig" class="download-btn" download>ダウンロード</a>
+                </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>

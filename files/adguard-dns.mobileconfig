@@ -32,18 +32,6 @@
 					<key>ServerURL</key>
 					<string>https://unfiltered.adguard-dns.com/dns-query</string>
 				</dict>
-				<key>PayloadDescription</key>
-				<string>Configures device to use AdGuard DNS</string>
-				<key>PayloadDisplayName</key>
-				<string>AdGuard DoH</string>
-				<key>PayloadIdentifier</key>
-				<string>com.apple.dnsSettings.managed.a4d46ebe-a00f-4586-8db8-514a924b4f4a</string>
-				<key>PayloadType</key>
-				<string>com.apple.dnsSettings.managed</string>
-				<key>PayloadUUID</key>
-				<string>ead3ca4b-fe5d-4502-811a-35431f2766b9</string>
-				<key>PayloadVersion</key>
-				<integer>1</integer>
 			</dict>
 		</array>
 	</dict>

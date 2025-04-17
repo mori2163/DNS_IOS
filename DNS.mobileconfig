@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>DNS</string>
+		<key>PayloadOrganization</key>
+		<string>DNS</string>
+		<key>PayloadIdentifier</key>
+        <string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
+        <key>PayloadUUID</key>
+        <string>b31dc937-6a72-6eaf-11a2-06d804eb88ee</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDescription</key>
+        <string>DNS</string>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>94.140.14.140</string>
+						<string>94.140.14.141</string>
+						<string>2a10:50c0:0:0:0:0:1:ff</string>
+						<string>2a10:50c0:0:0:0:0:2:ff</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://unfiltered.adguard-dns.com/dns-query</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use AdGuard DNS</string>
+				<key>PayloadDisplayName</key>
+				<string>AdGuard DoH</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.a4d46ebe-a00f-4586-8db8-514a924b4f4a</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>ead3ca4b-fe5d-4502-811a-35431f2766b9</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>PayloadDisplayName</key>
-		<string>DNS</string>
+		<string>AdGuard DNS (Optimized)</string>
 		<key>PayloadOrganization</key>
 		<string>DNS</string>
 		<key>PayloadIdentifier</key>
@@ -15,7 +15,7 @@
 		<key>PayloadVersion</key>
 		<integer>1</integer>
 		<key>PayloadDescription</key>
-		<string>DNS</string>
+		<string>AdGuard DNS Configuration (IPv4 Only)</string>
 		<key>PayloadContent</key>
 		<array>
 			<dict>
@@ -28,7 +28,7 @@
 				<key>PayloadVersion</key>
 				<integer>1</integer>
 				<key>PayloadDisplayName</key>
-				<string>DNS設定</string>
+				<string>AdGuard DNS</string>
 				<key>DNSSettings</key>
 				<dict>
 					<key>DNSProtocol</key>
@@ -37,13 +37,11 @@
 					<array>
 						<string>94.140.14.140</string>
 						<string>94.140.14.141</string>
-						<string>2a10:50c0:0:0:0:0:1:ff</string>
-						<string>2a10:50c0:0:0:0:0:2:ff</string>
 					</array>
 					<key>ServerURL</key>
 					<string>https://unfiltered.adguard-dns.com/dns-query</string>
-                    <key>Name</key>
-                    <string>AdGuard DNS</string>
+					<key>Name</key>
+					<string>AdGuard DNS</string>
 				</dict>
 			</dict>
 		</array>
